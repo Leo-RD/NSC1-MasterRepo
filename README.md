@@ -53,7 +53,7 @@ Le système est composé de 4 blocs principaux :
 
 ## 📊 Schéma d’architecture
 
-![Architecture du projet](./docs/SYNOPTIQUE_NSC1.png)  
+![Architecture du projet](./SYNOPTIQUE_NSC1.png)  
 *(Le schéma ci-dessus illustre les interactions entre les différents blocs : mobile/web, physique, infrastructure et gestion.)*
 
 ---
