@@ -11,14 +11,14 @@ Le système est composé de 4 blocs principaux :
 
 1. **Mobile / Web**  
    - Application web déployée sur **Vercel**  
-   - Application mobile développée avec **.NET MAUI**  
+   - Application mobile développée avec **Flutter (Dart)**  
    - Interaction avec l’API pour ouvrir/fermer la porte et consulter les accès
 
 2. **Physique**  
    - **Porte sécurisée** connectée  
    - **Raspberry Pi** gérant les signaux d’ouverture/fermeture  
    - **Lecteur NFC** pour authentification locale  
-   - Communication via **Wi-Fi** et **LoRaWAN**
+   - Communication via **Wi-Fi** et **MQTT**
 
 3. **Infrastructure**  
    - **API centrale** exposant les fonctionnalités du système  
@@ -34,8 +34,8 @@ Le système est composé de 4 blocs principaux :
 
 - **Frontend :** HTML, CSS, JavaScript (hébergé sur [Vercel](https://nsc-1-door-2.vercel.app/homepage.html))  
 - **Mobile :** .NET MAUI  
-- **Backend :** API REST (C# / .NET)  
-- **Matériel :** Raspberry Pi, module NFC, communication Wi-Fi et LoRaWAN  
+- **Backend :** API REST (PhpSlim, SlimSkeleton)  
+- **Matériel :** Raspberry Pi, module NFC, communication Wi-Fi et MQTT
 - **Base de données :** SQL  
 - **Gestion :** Application C# de monitoring et administration  
 
@@ -45,7 +45,7 @@ Le système est composé de 4 blocs principaux :
 
 - 🌐 [NSC1-WebRepo](https://github.com/Leo-RD/NSC1_DOOR_2) → site web (accueil, login, inscription)  
 - 📱 [Mobile App (Flutter)](https://github.com/Leo-RD/nsc1_mobileapp) → dans ce dépôt MASTER et celui dédié (lien)
-- ⚙️ API + Base de données → dans ce dépôt MASTER  
+- ⚙️ API + Base de données → dans ce dépôt MASTER et celui dédié
 - 🔒 Code embarqué (Raspberry + NFC) → dans ce dépôt MASTER  
 - 🖥️ [Outil de gestion C#](https://github.com/fuxau/gestionappNSC1_securedoor.git) → dans ce dépôt MASTER et celui dédié (lien) 
 
@@ -53,7 +53,7 @@ Le système est composé de 4 blocs principaux :
 
 ## 📊 Schéma d’architecture
 
-![Architecture du projet](./docs/architecture.png)  
+![Architecture du projet](./docs/SYNOPTIQUE_NSC1.png)  
 *(Le schéma ci-dessus illustre les interactions entre les différents blocs : mobile/web, physique, infrastructure et gestion.)*
 
 ---
