@@ -44,7 +44,7 @@ Le système est composé de 4 blocs principaux :
 ## 📂 Structure des dépôts associés
 
 - 🌐 [NSC1-WebRepo](https://github.com/Leo-RD/NSC1_DOOR_2) → site web (accueil, login, inscription)  
-- 📱 Mobile App (MAUI) → dans ce dépôt MASTER  
+- 📱 [Mobile App (Flutter)](https://github.com/Leo-RD/nsc1_mobileapp) → dans ce dépôt MASTER et celui dédié (lien)
 - ⚙️ API + Base de données → dans ce dépôt MASTER  
 - 🔒 Code embarqué (Raspberry + NFC) → dans ce dépôt MASTER  
 - 🖥️ Outil de gestion C# → dans ce dépôt MASTER  
