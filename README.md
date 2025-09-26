@@ -32,7 +32,7 @@ Le système est composé de 4 blocs principaux :
 
 ## 🛠️ Technologies utilisées
 
-- **Frontend :** HTML, CSS, JavaScript (hébergé sur [repo web dédié](https://github.com/Leo-RD/NSC1_DOOR_2))  
+- **Frontend :** HTML, CSS, JavaScript (hébergé sur [Vercel](https://nsc-1-door-2.vercel.app/homepage.html))  
 - **Mobile :** .NET MAUI  
 - **Backend :** API REST (C# / .NET)  
 - **Matériel :** Raspberry Pi, module NFC, communication Wi-Fi et LoRaWAN  
@@ -47,7 +47,7 @@ Le système est composé de 4 blocs principaux :
 - 📱 [Mobile App (Flutter)](https://github.com/Leo-RD/nsc1_mobileapp) → dans ce dépôt MASTER et celui dédié (lien)
 - ⚙️ API + Base de données → dans ce dépôt MASTER  
 - 🔒 Code embarqué (Raspberry + NFC) → dans ce dépôt MASTER  
-- 🖥️ Outil de gestion C# → dans ce dépôt MASTER  
+- 🖥️ [Outil de gestion C#](https://github.com/fuxau/gestionappNSC1_securedoor.git) → dans ce dépôt MASTER et celui dédié (lien) 
 
 ---
 
