@@ -10,7 +10,7 @@ Il intègre à la fois la partie physique (Raspberry + lecteur NFC), l’infrast
 Le système est composé de 4 blocs principaux :
 
 1. **Mobile / Web**  
-   - Application web déployée sur **Vercel**  
+   - Site web déployée sur **Vercel**  
    - Application mobile développée avec **Flutter (Dart)**  
    - Interaction avec l’API pour ouvrir/fermer la porte et consulter les accès
 
@@ -72,13 +72,13 @@ Voir instructions dans le dépôt NSC1-WebRepo
 
 ### 3. Mobile
 
-Ouvrir le projet .NET MAUI dans Visual Studio
+Ouvrir le projet Flutter dans VSCode ou un IDE autre
 
 Lancer sur un émulateur ou un appareil réel
 
 ### 4. API & Backend
 
-Ouvrir le projet backend dans Visual Studio
+Ouvrir le projet backend dans PHPStorm
 
 Configurer la base de données (script SQL fourni dans /db/)
 
@@ -94,7 +94,7 @@ Configurer la communication réseau (Wi-Fi / LoRaWAN)
 
 ### 6. Application de gestion
 
-Ouvrir le projet C# dans Visual Studio
+Ouvrir le projet C# dans Visual Studio ou Rider
 
 Lancer l’application pour gérer utilisateurs et accès
 
