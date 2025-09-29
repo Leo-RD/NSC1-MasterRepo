@@ -108,7 +108,7 @@ Lancer l’application pour gérer utilisateurs et accès
 
 - Gestion des utilisateurs et des droits d’accès
 
-- Communication sécurisée via Wi-Fi et LoRaWAN
+- Communication sécurisée via Wi-Fi et MQTT
 
 - Interface mobile et web pour les utilisateurs finaux
 
