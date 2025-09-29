@@ -90,7 +90,7 @@ Déployer le code embarqué (C/C++ ou Python selon le module utilisé)
 
 Connecter le lecteur NFC
 
-Configurer la communication réseau (Wi-Fi / LoRaWAN)
+Configurer la communication réseau (Wi-Fi / MQTT)
 
 ### 6. Application de gestion
 
