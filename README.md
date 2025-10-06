@@ -45,7 +45,7 @@ Le système est composé de 4 blocs principaux :
 
 - 🌐 [NSC1-WebRepo](https://github.com/Leo-RD/NSC1_DOOR_2) → site web (accueil, login, inscription)  
 - 📱 [Mobile App (Flutter)](https://github.com/Leo-RD/nsc1_mobileapp) → dans ce dépôt MASTER et celui dédié (lien)
-- ⚙️ API + Base de données → dans ce dépôt MASTER et celui dédié
+- ⚙️ [API](https://github.com/Ali-Kasal/API_NSC1.git) + Base de données → dans ce dépôt MASTER et celui dédié 
 - 🔒 Code embarqué (Raspberry + NFC) → dans ce dépôt MASTER  
 - 🖥️ [Outil de gestion C#](https://github.com/fuxau/gestionappNSC1_securedoor.git) → dans ce dépôt MASTER et celui dédié (lien) 
 
